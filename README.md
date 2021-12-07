@@ -25,3 +25,4 @@ The goal is to design marketing strategies that help convert casual riders into 
 Cyclistic's historical bike trip data
 Data period: 1-30 November 2021
 Data source: provided bhy Google Data Analytics course
+https://divvy-tripdata.s3.amazonaws.com/index.html
