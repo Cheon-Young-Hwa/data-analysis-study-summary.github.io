@@ -1,0 +1,128 @@
+---
+title: "case_study_bike_share"
+output: html_document
+---
+
+
+## Introduction
+This report is based on a ficitional case study of which materials were provided by Google Data Analytics course. The analysis task is to analyse datasets about users of a bike-sharing company and propose marketing strategies and enhance profitability.
+
+* About the company and backgrounds
+In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago.
+
+Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members. 
+
+
+## Statement of a business task
+The goal is to design marketing strategies that help convert casual riders into annual members. In order to achieve the goal, these questions have to be answered.
+
+* How annual members and casual riders differ?
+* Why casual riders would buy a membership?
+* How digital media could affect their marketing tactics?
+
+
+## Data scources
+Cyclistic's historical bike trip data
+Data period: 1-30 November 2021
+Data source: provided bhy Google Data Analytics course [click](https://divvy-tripdata.s3.amazonaws.com/index.html)
+
+
+## Data cleaning and manipulation
+
+To identify differences between casual riders and members, this process shows hows to trim and manipulate datasets and calculates these two key values.
+
+* The average ride length by type of user by day of week
+* The number of users by type of user by day of week
+
+Package installation
+```{r}
+install.packages("tidyverse")
+library("tidyverse")
+install.packages("lubridate")
+library("lubridate")
+```
+
+Cleaning and manipulation
+```{r}
+trip_202110 <- read.csv("trip_202110.csv")
+glimpse(trip_202110)
+head(trip_202110)
+```
+
+```{r}
+new_trip_202110 <- mutate(trip_202110, time_start = as.POSIXct(trip_202110$started_at,format="%Y-%m-%d %H:%M:%S"), time_end = as.POSIXct(trip_202110$ended_at,format="%Y-%m-%d %H:%M:%S"), day_of_week = as.POSIXlt(trip_202110$started_at)$wday+1) 
+cal_trip_202110 <- mutate(new_trip_202110, ride_length = time_end - time_start)
+head(cal_trip_202110)
+```
+
+```{r}
+cal2_trip_202110 <- cal_trip_202110 %>% 
+  group_by(member_casual, day_of_week) %>% 
+  summarize(average_ride_length = mean(ride_length))
+head(cal2_trip_202110)
+```
+
+```{r}
+cal3_trip_202110 <- cal_trip_202110 %>% 
+  group_by(member_casual, day_of_week) %>% 
+  summarize(ride_count = n())
+head(cal3_trip_202110)
+```
+
+
+## Summary of the analysis
+
+* The average ride length
+```{r}
+View(cal2_trip_202110)
+```
+
+* The number of users
+```{r}
+View(cal3_trip_202110)
+```
+
+
+## Visualisaition and key findings
+
+These are the key takeaways found in the two charts below:
+
+* Casual riders tend to ride longer on each trip than membership-owned riders. Also, casual riders use bikes less frequently than membership users. Seeing the riding patterns based on weekdasy, casual users make more of trips during weekends.
+
+* The reasons for this is likely that casual riders use bike-sharing for the purposes of fun or exercise, whereas membership users do as supportive transportation that helps switch to subways or buses.
+
+* To attract irregular users turn to annual plans, there needs to be new sets of pricing that fit their lifestyle and riding patterns.
+
+
+* Chart1: Average Ride Length by Day of Week
+```{r}
+cal2_trip_202110 <- cal_trip_202110 %>% 
+  group_by(member_casual, day_of_week) %>% 
+  summarize(average_ride_length = mean(ride_length))
+head(cal2_trip_202110)
+
+ggplot(cal2_trip_202110)+
+  geom_col(aes(x = day_of_week, y= average_ride_length, fill = member_casual))+
+  facet_wrap(~member_casual)+
+  labs(title = "Average Ride Length by Day of Week", x = "Day of week", y = "Average ride length")
+```
+
+* Chart2: Ride Count by Day of Week
+```{r}
+cal3_trip_202110 <- cal_trip_202110 %>% 
+  group_by(member_casual, day_of_week) %>% 
+  summarize(ride_count = n())
+head(cal3_trip_202110)
+
+ggplot(cal3_trip_202110)+
+  geom_col(aes(x = day_of_week, y = ride_count, fill = member_casual))+
+  facet_wrap(~member_casual)+
+  labs(title = "Ride Count by Day of Week", x = "Day of week", y = "Ride count")
+```
+
+
+## Recommendations 
+
+As above discussed, there are clear differences in bike-sharing usages between casual and membership riders. Therefore, in order to increase memberships and rise profitability, it is required to set out strategy to attract irregular users switch to annual memberships. 
+
+One example is to offer new pricing that fit casual users' lifestyle and riding pattern. In the pricing, users can get discounted fees at weekends and during trips of 30 minutes or above.
