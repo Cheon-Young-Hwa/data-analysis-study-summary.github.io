@@ -21,6 +21,17 @@ The goal is to design marketing strategies that help convert casual riders into 
 * How digital media could affect their marketing tactics?
 
 
+## Table of Contents
+1. Exploratory and descriptive analysis
+2. A/B Testing
+3. Linear regression analysis
+4. Logistic regression analysis
+5. Cluster analysis
+6. Data visualisation
+   6.1 Data visualisation with programming R
+   6.2 Tableau
+
+
 ## Data scources
 Cyclistic's historical bike trip data
 Data period: 1-30 November 2021
