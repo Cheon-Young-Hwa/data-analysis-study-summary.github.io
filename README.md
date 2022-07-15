@@ -1,6 +1,6 @@
-# AngelaCheon.github.io
+# data-analyst-portfolio.github.io
 
-This is a case study project bound to the Google Data Analytics certification course to demonstarte data analysis skills and knowlege learned during the course.
+This is a collection of case study projects to demonstrate data analysis skills and knowlege
 I used spreadsheets and R as main analysing tools for the project.
 
 
