@@ -21,7 +21,7 @@ The goal is to design marketing strategies that help convert casual riders into 
 * How digital media could affect their marketing tactics?
 
 
-## Table of Contents
+## Table of contents
 1. Statistics for data science and business analysis
 2. A/B Testing
 3. Linear regression
@@ -33,7 +33,7 @@ The goal is to design marketing strategies that help convert casual riders into 
 9. Googlde data analyst certicicate course
 
 
-## Data scources
+## Courses and matrials
 Cyclistic's historical bike trip data
 Data period: 1-30 November 2021
 Data source: provided bhy Google Data Analytics course
