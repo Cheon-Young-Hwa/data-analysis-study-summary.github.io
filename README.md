@@ -30,7 +30,7 @@ The goal is to design marketing strategies that help convert casual riders into 
 6. Data visualisation with Tableau
 7. SQL
 8. Data analysis with programming R
-9. Googlde data analyst certicicate course
+9. Google data analyst certicicate course
 
 
 ## Courses and matrials
