@@ -22,14 +22,15 @@ The goal is to design marketing strategies that help convert casual riders into 
 
 
 ## Table of Contents
-1. Exploratory and descriptive analysis
+1. Statistics for data science and business analysis
 2. A/B Testing
-3. Linear regression analysis
-4. Logistic regression analysis
+3. Linear regression
+4. Logistic regression
 5. Cluster analysis
-6. Data visualisation
-   6.1 Data visualisation with programming R
-   6.2 Tableau
+6. Data visualisation with Tableau
+7. SQL
+8. Data analysis with programming R
+9. Googlde data analyst certicicate course
 
 
 ## Data scources
@@ -37,3 +38,5 @@ Cyclistic's historical bike trip data
 Data period: 1-30 November 2021
 Data source: provided bhy Google Data Analytics course
 https://divvy-tripdata.s3.amazonaws.com/index.html
+
+## Certificates
