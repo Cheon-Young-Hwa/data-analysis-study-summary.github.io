@@ -27,13 +27,13 @@ Some of the projects are end-to-end complete projects which include the whole pr
 ## Course certifications
 (See the folder ‘course certification)
 * Statistics for Data Science and Business Analysis (Udemy)
-A/B Testing in Python (Udemy)
-Machine Learning 101 with Scikit-learn and StatsModels (Udemy)
-Tableau Data Analyst/Specialist Desktop Certification (Udemy)
-SQL - MySQL for Data Analytics and Business Intelligence (Udemy)
-R Programming for Statistics and Data Science 2022 (Udemy)
-Google Data Analytics (Coursera)
-Google Analytics for Advanced
-Google Analytics for Beginners
-Google – The Fundamental of Digital Marketing
+* A/B Testing in Python (Udemy)
+* Machine Learning 101 with Scikit-learn and StatsModels (Udemy)
+* Tableau Data Analyst/Specialist Desktop Certification (Udemy)
+* SQL - MySQL for Data Analytics and Business Intelligence (Udemy)
+* R Programming for Statistics and Data Science 2022 (Udemy)
+* Google Data Analytics (Coursera)
+* Google Analytics for Advanced
+* Google Analytics for Beginners
+* Google – The Fundamental of Digital Marketing
 
