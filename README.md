@@ -11,6 +11,7 @@ Some of the projects are end-to-end complete projects which include the whole pr
 
 
 
+
 ## Table of contents
 1. Statistics for data science and business analysis
 2. A/B Testing
@@ -19,6 +20,7 @@ Some of the projects are end-to-end complete projects which include the whole pr
 5. Cluster analysis
 6. Data visualisation with Tableau
 7. SQL
+
 
 
 
