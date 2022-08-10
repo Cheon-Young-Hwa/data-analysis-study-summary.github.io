@@ -6,7 +6,7 @@ This portfolio is a collection of projects to demonstrate underlying data analys
 
 Each secession consists of a textual file in Jupyter Notebook and folder. The textual file has a brief introduction, list of subjects and concepts covered, and states a list of projects performed and a training course which provides datasets and materials. The folder contains a list of project files with lines of code used.
 
-Some of the projects are end-to-end complete projects which include the whole process in one place, while others are mini projects which are split into parts to focus on key skills. The datasets and questions for the projects are provided by education courses and based on fictional setting. 
+Some of the projects are end-to-end complete projects which include the whole process in one place, while others are mini projects which are split into parts to focus on key skills. The datasets and questions for the projects are provided by education courses and mostly based on fictional setting. 
 
 
 
