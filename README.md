@@ -26,7 +26,7 @@ Some of the projects are end-to-end complete projects which include the whole pr
 
 ## Course certifications
 (See the folder ‘course certification)
-Statistics for Data Science and Business Analysis (Udemy)
+* Statistics for Data Science and Business Analysis (Udemy)
 A/B Testing in Python (Udemy)
 Machine Learning 101 with Scikit-learn and StatsModels (Udemy)
 Tableau Data Analyst/Specialist Desktop Certification (Udemy)
