@@ -1,7 +1,7 @@
 # data-analyst-portfolio.github.io
 
 
-## Project introduction
+## Introduction
 This portfolio is a collection of projects to demonstrate underlying data analysis method and knowledge and present code used for analysing. The portfolio is divided into seven secessions based on the topics which are essential and for some, sophisticated but handy for analysing data. For example, there are statistical method parts such as exploratory analysis, A/B testing and machine learning like linear and logistic regression. Also, key platforms for data visualisation and relational database programming language –Tableau and SQL – are also included.
 
 Each secession consists of a textual file in Jupyter Notebook and folder. The textual file has a brief introduction, list of subjects and concepts covered, and states a list of projects performed and a training course which provides datasets and materials. The folder contains a list of project files with lines of code used.
