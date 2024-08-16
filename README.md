@@ -26,14 +26,15 @@ Some of the projects are end-to-end complete projects which include the whole pr
 
 ## Course certifications
 (See the folder ‘course certification)
-* Statistics for Data Science and Business Analysis (Udemy)
-* A/B Testing in Python (Udemy)
-* Machine Learning 101 with Scikit-learn and StatsModels (Udemy)
-* Tableau Data Analyst/Specialist Desktop Certification (Udemy)
-* SQL - MySQL for Data Analytics and Business Intelligence (Udemy)
-* R Programming for Statistics and Data Science 2022 (Udemy)
-* Google Data Analytics (Coursera)
-* Google Analytics for Advanced
-* Google Analytics for Beginners
-* Google – The Fundamental of Digital Marketing
+* Statistics for Data Science and Business Analysis (Udemy) 5 hours 
+* A/B Testing in Python (Udemy) 3 hours
+* Machine Learning 101 with Scikit-learn and StatsModels (Udemy) 6 hours
+* Tableau Data Analyst/Specialist Desktop Certification (Udemy) 15 hours
+* SQL - MySQL for Data Analytics and Business Intelligence (Udemy) 12 hours
+* R Programming for Statistics and Data Science 2022 (Udemy) 7 hours
+* Python for Machine Learning & Data Science Master Class (Udemy) 44 hours
+* Google Data Analytics (Coursera) 180 hours
+* Google Analytics for Advanced 5 hours
+* Google Analytics for Beginners 5 hours
+* Google – The Fundamental of Digital Marketing 6 hours
 
