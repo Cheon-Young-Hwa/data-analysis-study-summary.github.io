@@ -25,7 +25,7 @@ Some of the projects are end-to-end complete projects which include the whole pr
 
 
 ## Course certifications
-(See the folder ‘course certification)
+(View the course certification folder)
 * Statistics for Data Science and Business Analysis (Udemy) 5 hours 
 * A/B Testing in Python (Udemy) 3 hours
 * Machine Learning 101 with Scikit-learn and StatsModels (Udemy) 6 hours
